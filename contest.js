@@ -18,12 +18,11 @@ async function run(users){   /* run from devtools snipped with ctrl-enter  OR NO
         /*await means the rest of my code stops until wow gives me back a promise */
 
         /* In wow, loop until team-member-username class length property is greater than i */
-        /*call await new promise timeout 500 <--- meaning let other js code run for 500ms */
+        /*call await new promise timeout 10 <--- meaning let other js code run for 10ms */
 
         await wow(users[nickName], i);
 
-        /*We only need 1 await*/
-        /*as everything we need is created each time we click the add team button*/
+        /*We only need 1 await in this function*/
 
         /*click add to team*/
         buttonMember(i);
