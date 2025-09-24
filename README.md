@@ -10,3 +10,4 @@ This page will allow you to choose problems and also invite kattis users to the 
 
 Populate the users dictionary in the script with your desired names and accounts.
 
+It's worked great for me so far.  I make no gaureentees that this code works and if Kattis changes their website I may not update my script.
